@@ -32,17 +32,50 @@ These activities are designed for trainees to practice GitLab skills in actual G
   - Configure columns, filters, WIP limits, and swimlanes for real workflows
   - Choose from role-specific board templates tailored to training environments
 
-### **Coming Soon**
-  
-- **Activity 3: Merge Request Best Practices** *(25 minutes)*
-  - Create feature branches and merge requests
-  - Practice code review workflows and approvals
-  
-- **Activity 4: CI/CD Pipeline Configuration** *(30 minutes)*
-  - Set up basic CI/CD pipelines
-  - Configure automated testing and deployment
+### **Day 3: Advanced Git Workflows & Integration**
+- **[Activity 3.1: Branch Naming Challenge](./day-3/01-branch-naming-challenge.md)** *(25 minutes)*
+  - Master Git branch naming conventions using real repository issues
+  - Practice professional branching strategies and naming patterns
 
-- **Activity 5: Epic and Roadmap Planning** *(35 minutes)*
+- **[Activity 3.2: Create Your First CI/CD Pipeline](./day-3/02-create-first-pipeline.md)** *(30 minutes)*
+  - Build automated workflows from scratch with GitLab CI/CD
+  - Configure testing, building, and deployment pipelines
+
+- **[Activity 3.3: Brainstorm Ideal Integration](./day-3/03-brainstorm-ideal-integration.md)** *(20 minutes)*
+  - Design integration workflows for complex development environments
+  - Plan tool ecosystems and process improvements
+
+- **[Activity 3.4: Advanced Git Workflow Implementation](./day-3/04-advanced-git-workflow-implementation.md)** *(35 minutes)*
+  - Master advanced Git branching strategies and merge request workflows
+  - Practice conflict resolution and professional development practices
+
+- **[Activity 3.5: GitLab Ecosystem Integration Planning](./day-3/05-gitlab-ecosystem-integration-planning.md)** *(25 minutes)*
+  - Design comprehensive integration strategies for your team's workflow optimization
+  - Create actionable roadmaps for tool ecosystem improvements
+
+- **[Activity 3.6: Implementation Planning Workshop](./day-3/06-implementation-planning-workshop.md)** *(30 minutes)*
+  - Create comprehensive GitLab implementation plans for organizational success
+  - Develop change management strategies and resource allocation frameworks
+
+- **[Activity 3.7: Design-Development Integration Workflow](./day-3/07-design-development-integration-workflow.md)** *(20 minutes)*
+  - Establish seamless collaboration between design and development teams
+  - Configure design asset management and review workflows
+
+- **[Activity 3.8: Security & Compliance Workflow](./day-3/08-security-compliance-workflow.md)** *(25 minutes)*
+  - Implement comprehensive security scanning and compliance monitoring
+  - Configure automated vulnerability management and policy enforcement
+
+- **[Activity 3.9: Productivity Analytics & Performance Optimization](./day-3/09-productivity-analytics-performance-optimization.md)** *(30 minutes)*
+  - Master analytics and insights for measuring productivity and optimizing workflows
+  - Develop data-driven improvement strategies and performance optimization techniques
+
+- **[Activity 3.10: GraphQL API Mastery](./day-3/10-graphql-api-mastery-challenges.md)** *(30 minutes)*
+  - Master GitLab's GraphQL API with practical challenges and real-world queries
+  - Leverage GitLab Duo Chat for query assistance and optimization techniques
+  - **Companion:** [Solutions & Advanced Techniques](./day-3/10-graphql-api-mastery-answers.md)
+
+### **Coming Soon**
+- **Activity 4: Epic and Roadmap Planning** *(35 minutes)*
   - Create epics for large initiatives
   - Build roadmaps for quarterly planning
 

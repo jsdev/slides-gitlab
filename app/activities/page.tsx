@@ -548,9 +548,9 @@ export default function ActivitiesDashboard() {
                   <h2 className="text-xl font-bold text-gray-900">Day 3: Advanced Workflows & Integration</h2>
                 </div>
                 <div className="flex items-center gap-2">
-                  <span className="px-2 py-1 bg-green-100 text-green-800 text-xs font-medium rounded">✅ Available</span>
-                  <span className="px-2 py-1 bg-gray-100 text-gray-600 text-xs font-medium rounded">70 minutes</span>
-                  <span className="px-2 py-1 bg-purple-100 text-purple-800 text-xs font-medium rounded">3 activities</span>
+                  <span className="px-2 py-1 bg-green-100 text-green-800 text-xs font-medium rounded">✅ Complete</span>
+                  <span className="px-2 py-1 bg-gray-100 text-gray-600 text-xs font-medium rounded">235+ minutes</span>
+                  <span className="px-2 py-1 bg-purple-100 text-purple-800 text-xs font-medium rounded">10 activities</span>
                 </div>
               </div>
               <div className="text-gray-400 group-open:rotate-180 transition-transform">
@@ -562,7 +562,7 @@ export default function ActivitiesDashboard() {
             
             <div className="px-6 pb-6">
               <p className="text-gray-600 mb-6">
-                Advanced GitLab features including merge requests, CI/CD pipelines, and epic planning. Master professional development workflows.
+                Comprehensive advanced GitLab workflows covering Git branching, CI/CD pipelines, ecosystem integration, implementation planning, design workflows, security compliance, and productivity analytics. Master enterprise-grade development practices.
               </p>
               
               <div className="grid gap-4">
@@ -677,6 +677,312 @@ export default function ActivitiesDashboard() {
                   </Link>
                   <div className="mt-3 text-xs text-green-700">
                     <strong>Focus:</strong> Workflow analysis • Tool integration • Process optimization
+                  </div>
+                </div>
+
+                {/* Advanced Git Workflows - Professional Grade */}
+                <div className="bg-red-50 p-4 rounded-lg border-l-4 border-l-red-500">
+                  <h3 className="font-semibold text-red-800 mb-3">🏗️ Advanced Git Implementation</h3>
+                  <Link href="/activities/advanced-git-workflow" className="group block">
+                    <div className="p-3 bg-white rounded-lg border hover:shadow-md transition-shadow">
+                      <div className="flex items-start gap-3">
+                        <div className="p-2 bg-red-100 rounded-lg group-hover:bg-red-200 transition-colors">
+                          <GitBranch className="w-4 h-4 text-red-600" />
+                        </div>
+                        <div className="flex-1">
+                          <h4 className="font-medium text-gray-900 group-hover:text-red-600 transition-colors">
+                            Activity 3.4: Advanced Git Workflow Implementation
+                          </h4>
+                          <p className="text-gray-600 mb-2">
+                            Master enterprise Git branching strategies, merge request workflows, and conflict resolution
+                          </p>
+                          <div className="flex items-center gap-4 text-xs text-gray-500">
+                            <span className="flex items-center gap-1">
+                              <Clock className="w-3 h-3" />
+                              35 minutes
+                            </span>
+                            <span className="flex items-center gap-1">
+                              <Target className="w-3 h-3" />
+                              Advanced level
+                            </span>
+                            <span className="flex items-center gap-1">
+                              <Users className="w-3 h-3" />
+                              Professional workflow
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </Link>
+                  <div className="mt-3 text-xs text-red-700">
+                    <strong>Focus:</strong> Branch protection • MR templates • Enterprise conventions
+                  </div>
+                </div>
+
+                {/* Strategic Integration Planning */}
+                <div className="bg-yellow-50 p-4 rounded-lg border-l-4 border-l-yellow-500">
+                  <h3 className="font-semibold text-yellow-800 mb-3">🔧 Ecosystem Integration</h3>
+                  <Link href="/activities/gitlab-ecosystem-integration" className="group block">
+                    <div className="p-3 bg-white rounded-lg border hover:shadow-md transition-shadow">
+                      <div className="flex items-start gap-3">
+                        <div className="p-2 bg-yellow-100 rounded-lg group-hover:bg-yellow-200 transition-colors">
+                          <Settings className="w-4 h-4 text-yellow-600" />
+                        </div>
+                        <div className="flex-1">
+                          <h4 className="font-medium text-gray-900 group-hover:text-yellow-600 transition-colors">
+                            Activity 3.5: GitLab Ecosystem Integration Planning
+                          </h4>
+                          <p className="text-gray-600 mb-2">
+                            Strategic integration planning with external tools and systems
+                          </p>
+                          <div className="flex items-center gap-4 text-xs text-gray-500">
+                            <span className="flex items-center gap-1">
+                              <Clock className="w-3 h-3" />
+                              25 minutes
+                            </span>
+                            <span className="flex items-center gap-1">
+                              <Target className="w-3 h-3" />
+                              Strategic level
+                            </span>
+                            <span className="flex items-center gap-1">
+                              <Users className="w-3 h-3" />
+                              Planning workshop
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </Link>
+                  <div className="mt-3 text-xs text-yellow-700">
+                    <strong>Focus:</strong> Tool ecosystem • Integration roadmap • Strategic planning
+                  </div>
+                </div>
+
+                {/* Implementation Planning */}
+                <div className="bg-indigo-50 p-4 rounded-lg border-l-4 border-l-indigo-500">
+                  <h3 className="font-semibold text-indigo-800 mb-3">📋 Organizational Implementation</h3>
+                  <Link href="/activities/implementation-planning-workshop" className="group block">
+                    <div className="p-3 bg-white rounded-lg border hover:shadow-md transition-shadow">
+                      <div className="flex items-start gap-3">
+                        <div className="p-2 bg-indigo-100 rounded-lg group-hover:bg-indigo-200 transition-colors">
+                          <Target className="w-4 h-4 text-indigo-600" />
+                        </div>
+                        <div className="flex-1">
+                          <h4 className="font-medium text-gray-900 group-hover:text-indigo-600 transition-colors">
+                            Activity 3.6: Implementation Planning Workshop
+                          </h4>
+                          <p className="text-gray-600 mb-2">
+                            Organizational GitLab implementation strategy and change management
+                          </p>
+                          <div className="flex items-center gap-4 text-xs text-gray-500">
+                            <span className="flex items-center gap-1">
+                              <Clock className="w-3 h-3" />
+                              30 minutes
+                            </span>
+                            <span className="flex items-center gap-1">
+                              <Target className="w-3 h-3" />
+                              Strategic level
+                            </span>
+                            <span className="flex items-center gap-1">
+                              <Users className="w-3 h-3" />
+                              Workshop format
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </Link>
+                  <div className="mt-3 text-xs text-indigo-700">
+                    <strong>Focus:</strong> Change management • Rollout strategy • Risk assessment
+                  </div>
+                </div>
+
+                {/* Design Integration */}
+                <div className="bg-pink-50 p-4 rounded-lg border-l-4 border-l-pink-500">
+                  <h3 className="font-semibold text-pink-800 mb-3">🎨 Creative-Technical Integration</h3>
+                  <Link href="/activities/design-development-integration" className="group block">
+                    <div className="p-3 bg-white rounded-lg border hover:shadow-md transition-shadow">
+                      <div className="flex items-start gap-3">
+                        <div className="p-2 bg-pink-100 rounded-lg group-hover:bg-pink-200 transition-colors">
+                          <FileText className="w-4 h-4 text-pink-600" />
+                        </div>
+                        <div className="flex-1">
+                          <h4 className="font-medium text-gray-900 group-hover:text-pink-600 transition-colors">
+                            Activity 3.7: Design-Development Integration Workflow
+                          </h4>
+                          <p className="text-gray-600 mb-2">
+                            Design-development collaboration using GitLab's design management features
+                          </p>
+                          <div className="flex items-center gap-4 text-xs text-gray-500">
+                            <span className="flex items-center gap-1">
+                              <Clock className="w-3 h-3" />
+                              20 minutes
+                            </span>
+                            <span className="flex items-center gap-1">
+                              <Target className="w-3 h-3" />
+                              Intermediate level
+                            </span>
+                            <span className="flex items-center gap-1">
+                              <Users className="w-3 h-3" />
+                              Cross-functional
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </Link>
+                  <div className="mt-3 text-xs text-pink-700">
+                    <strong>Focus:</strong> Design assets • Review workflows • Creative collaboration
+                  </div>
+                </div>
+
+                {/* Security & Compliance */}
+                <div className="bg-gray-50 p-4 rounded-lg border-l-4 border-l-gray-500">
+                  <h3 className="font-semibold text-gray-800 mb-3">🔒 Security & Compliance</h3>
+                  <Link href="/activities/security-compliance-workflow" className="group block">
+                    <div className="p-3 bg-white rounded-lg border hover:shadow-md transition-shadow">
+                      <div className="flex items-start gap-3">
+                        <div className="p-2 bg-gray-100 rounded-lg group-hover:bg-gray-200 transition-colors">
+                          <Target className="w-4 h-4 text-gray-600" />
+                        </div>
+                        <div className="flex-1">
+                          <h4 className="font-medium text-gray-900 group-hover:text-gray-600 transition-colors">
+                            Activity 3.8: Security & Compliance Workflow
+                          </h4>
+                          <p className="text-gray-600 mb-2">
+                            Security scanning, compliance monitoring, and secure development practices
+                          </p>
+                          <div className="flex items-center gap-4 text-xs text-gray-500">
+                            <span className="flex items-center gap-1">
+                              <Clock className="w-3 h-3" />
+                              25 minutes
+                            </span>
+                            <span className="flex items-center gap-1">
+                              <Target className="w-3 h-3" />
+                              Advanced level
+                            </span>
+                            <span className="flex items-center gap-1">
+                              <Users className="w-3 h-3" />
+                              Security focus
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </Link>
+                  <div className="mt-3 text-xs text-gray-700">
+                    <strong>Focus:</strong> Vulnerability management • Compliance automation • Security policies
+                  </div>
+                </div>
+
+                {/* Productivity Analytics */}
+                <div className="bg-emerald-50 p-4 rounded-lg border-l-4 border-l-emerald-500">
+                  <h3 className="font-semibold text-emerald-800 mb-3">📊 Performance Analytics</h3>
+                  <Link href="/activities/productivity-analytics-performance" className="group block">
+                    <div className="p-3 bg-white rounded-lg border hover:shadow-md transition-shadow">
+                      <div className="flex items-start gap-3">
+                        <div className="p-2 bg-emerald-100 rounded-lg group-hover:bg-emerald-200 transition-colors">
+                          <Target className="w-4 h-4 text-emerald-600" />
+                        </div>
+                        <div className="flex-1">
+                          <h4 className="font-medium text-gray-900 group-hover:text-emerald-600 transition-colors">
+                            Activity 3.9: Productivity Analytics & Performance Optimization
+                          </h4>
+                          <p className="text-gray-600 mb-2">
+                            Master analytics and insights for measuring productivity and optimizing workflows
+                          </p>
+                          <div className="flex items-center gap-4 text-xs text-gray-500">
+                            <span className="flex items-center gap-1">
+                              <Clock className="w-3 h-3" />
+                              30 minutes
+                            </span>
+                            <span className="flex items-center gap-1">
+                              <Target className="w-3 h-3" />
+                              Advanced level
+                            </span>
+                            <span className="flex items-center gap-1">
+                              <Users className="w-3 h-3" />
+                              Data-driven
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </Link>
+                  <div className="mt-3 text-xs text-emerald-700">
+                    <strong>Focus:</strong> Performance metrics • Bottleneck analysis • Optimization strategies
+                  </div>
+                </div>
+
+                {/* GraphQL API Mastery */}
+                <div className="bg-purple-50 p-4 rounded-lg border-l-4 border-l-purple-500">
+                  <h3 className="font-semibold text-purple-800 mb-3">🗃️ API Mastery & Automation</h3>
+                  <Link href="/activities/graphql-api-mastery" className="group block">
+                    <div className="p-3 bg-white rounded-lg border hover:shadow-md transition-shadow">
+                      <div className="flex items-start gap-3">
+                        <div className="p-2 bg-purple-100 rounded-lg group-hover:bg-purple-200 transition-colors">
+                          <FileText className="w-4 h-4 text-purple-600" />
+                        </div>
+                        <div className="flex-1">
+                          <h4 className="font-medium text-gray-900 group-hover:text-purple-600 transition-colors">
+                            Activity 3.10: GraphQL API Mastery
+                          </h4>
+                          <p className="text-gray-600 mb-2">
+                            Master GitLab's GraphQL API with practical challenges and real-world automation queries
+                          </p>
+                          <div className="flex items-center gap-4 text-xs text-gray-500">
+                            <span className="flex items-center gap-1">
+                              <Clock className="w-3 h-3" />
+                              30 minutes
+                            </span>
+                            <span className="flex items-center gap-1">
+                              <Target className="w-3 h-3" />
+                              Intermediate to Advanced
+                            </span>
+                            <span className="flex items-center gap-1">
+                              <Users className="w-3 h-3" />
+                              API exploration
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </Link>
+                  <div className="mt-3 text-xs text-purple-700">
+                    <strong>Focus:</strong> GraphQL queries • API automation • GitLab Duo Chat integration
+                  </div>
+                </div>
+
+                {/* Day 3 Complete Badge */}
+                <div className="bg-purple-50 p-4 rounded-lg border-l-4 border-l-purple-500">
+                  <h3 className="font-semibold text-purple-800 mb-2">🎉 Day 3 Complete!</h3>
+                  <p className="text-sm text-purple-700 mb-3">
+                    You've mastered advanced GitLab workflows with 10 comprehensive activities covering enterprise-grade development practices, strategic planning, performance optimization, and API automation.
+                  </p>
+                  <div className="grid md:grid-cols-2 gap-4 mb-3">
+                    <div>
+                      <h4 className="font-medium text-purple-800 mb-1">Advanced Skills Mastered</h4>
+                      <ul className="text-xs text-purple-600 space-y-1">
+                        <li>• Enterprise Git branching strategies</li>
+                        <li>• CI/CD pipeline implementation</li>
+                        <li>• Strategic ecosystem integration</li>
+                        <li>• Organizational change management</li>
+                        <li>• Design-development workflows</li>
+                      </ul>
+                    </div>
+                    <div>
+                      <h4 className="font-medium text-purple-800 mb-1">Professional Outcomes</h4>
+                      <ul className="text-xs text-purple-600 space-y-1">
+                        <li>• Security and compliance automation</li>
+                        <li>• Performance analytics and optimization</li>
+                        <li>• Cross-functional team coordination</li>
+                        <li>• Data-driven decision making</li>
+                        <li>• Enterprise implementation planning</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div className="text-xs text-purple-600">
+                    <strong>Total Time:</strong> 235+ minutes • <strong>Mastery Level:</strong> Enterprise-ready GitLab professional
                   </div>
                 </div>
               </div>
